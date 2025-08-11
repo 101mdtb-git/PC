@@ -14,7 +14,7 @@
   -v /var/run/docker.sock:/var/run/docker.sock `#optional` \
   --shm-size="1gb" `#optional` \
   --restart unless-stopped \
-  lscr.io/linuxserver/webtop:latest````
+  lscr.io/linuxserver/webtop:debian-kde````
 
 # Reanudar
 ```docker start webtop```
