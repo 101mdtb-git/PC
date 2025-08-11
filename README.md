@@ -1,6 +1,6 @@
 # PC VIRTUAL
 # Encender
-```docker run -d \
+`docker run -d \
   --name=webtop \
   --security-opt seccomp=unconfined `#optional` \
   -e PUID=1000 \
@@ -14,7 +14,7 @@
   -v /var/run/docker.sock:/var/run/docker.sock `#optional` \
   --shm-size="1gb" `#optional` \
   --restart unless-stopped \
-  lscr.io/linuxserver/webtop:latest```
+  lscr.io/linuxserver/webtop:latest`
 
 # Reanudar
 ```docker start webtop```
